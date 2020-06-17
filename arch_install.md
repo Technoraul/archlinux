@@ -3,8 +3,8 @@
 timedatectl set-ntp true  
 cfdisk /dev/sda:  (choose dos)   
 
-/dev/sda1 256M type Linux bootable  
-/dev/sda2 all other space type Linux  
+/dev/sda1 (256M type Linux bootable)  
+/dev/sda2 (all other space type Linux)  
 white-yes then Quit  
 
 mkfs.ext4 /dev/sda1  
