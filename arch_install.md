@@ -29,7 +29,7 @@ vim /etc/locale.conf #LANG=en_US.UTF-8
 vim /etc/hostname   
 ln -sf /usr/share/zoneinfo/Europe/Moscow /etc/localtime  
 exit  
-unmount -R /mnt  
+umount -R /mnt  
 reboot  
 
 pacman -Syy  
