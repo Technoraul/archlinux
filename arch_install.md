@@ -33,7 +33,7 @@ umount -R /mnt
 reboot  
 
 pacman -Syy  
-pacman -S nvidia nvidia-utils  (install nvidia drivers or another)
+pacman -S nvidia nvidia-utils  (install nvidia drivers or another)  
 pacman -S xorg xfce4 xfce4-goodies lightdm lightdm-gtk-greeter  (install xfce)  
 sudo systemctl enable lightdm  
 reboot  
