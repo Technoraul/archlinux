@@ -1,4 +1,4 @@
-### Arch linux install manual
+### Arch linux install manual with grub
 
 timedatectl set-ntp true  
 cfdisk /dev/sda:  (choose dos)   
