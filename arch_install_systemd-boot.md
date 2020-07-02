@@ -2,8 +2,8 @@
 timedatectl set-ntp true  
 gdisk /dev/nvme0n1 (press x, y, enter x2)  
 cfdisk:  
-   /dev/nvmen1p1 - 512M type EFI System  
-   /dev/nvmen1p2 - all other type Linux root (x86-64)  
+  /dev/nvmen1p1 - 512M type EFI System  
+  /dev/nvmen1p2 - all other type Linux root (x86-64)  
 mkfs.fat -F32 /dev/nvme0n1p1  
 mkfs.ext4 /dev/nvme0n1p2  
 mount /dev/nvme0n1p2 /mnt  
