@@ -1,8 +1,8 @@
 ### Arch linux install manual with grub
 
 timedatectl set-ntp true  
-cfdisk /dev/sda:  (choose dos)   
 
+cfdisk /dev/sda:  (choose dos)   
 /dev/sda1 (256M type Linux bootable)  
 /dev/sda2 (all other space type Linux)  
 white-yes then Quit  
